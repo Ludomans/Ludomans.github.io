@@ -346,7 +346,3 @@ iframe {
   from{opacity: .4}
   to{opacity: 1}
 }
-
-#vk_community_messages {
-  z-index: 9999;
-}
