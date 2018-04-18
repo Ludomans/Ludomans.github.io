@@ -348,6 +348,7 @@ iframe {
 }
 
 #vk_community_messages {
+  background: none;
   position: absolute;
   left: 0;
   bottom: 0;
