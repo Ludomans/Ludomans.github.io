@@ -348,5 +348,9 @@ iframe {
 }
 
 #vk_community_messages {
-  background: rgba(0, 0, 0, 0);
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 450px;
+  width: 400px;
 }
