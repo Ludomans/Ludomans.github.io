@@ -53,6 +53,10 @@ a {
   color: white;
 }
 
+Strong {
+  color: silver;
+}
+
 #ToolBar {
   width: 1200px;
   height: 40px;
@@ -116,7 +120,7 @@ iframe {
 #item {
   background: rgb(40, 38, 73);
   width: 1170px;
-  min-height: 675px;
+  min-height: 200px;
   margin: auto;
   border-bottom: 3px solid silver;
   margin-bottom: 15px;
@@ -281,4 +285,64 @@ iframe {
   height: 240px;
   margin: auto;
   text-align: center;
+}
+
+#faq {
+  text-align: center;
+}
+
+
+
+.slideshow-containter { /* Слайдер */
+  max-width: 1200px;
+  height: 284px;
+  position: relative;
+  margin: auto;
+  box-shadow: 0 0 5px rgba(0, 0, 0, .5);
+  cursor: pointer;
+}
+
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: .3s ease;
+  border-radius: 0 3px 3px 0;
+}
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+.prev:hover, .next:hover {
+  background-color: rgb(40, 38, 73);
+}
+
+.text {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+@-webkit-keyframes fade{
+  from{opacity: .4}
+  to{opacity: 1}
+}
+@@keyframes fade {
+  from{opacity: .4}
+  to{opacity: 1}
 }
