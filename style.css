@@ -346,12 +346,3 @@ iframe {
   from{opacity: .4}
   to{opacity: 1}
 }
-
-#vk_community_messages {
-  background: none;
-  position: absolute;
-  left: 0;
-  bottom: 0;
-  height: 450px;
-  width: 400px;
-}
