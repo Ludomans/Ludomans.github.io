@@ -11,9 +11,9 @@ function currentSlide(n) {
 
 function NextSlideAuto (){
   plusSlides(1);
-  setTimeout(NextSlideAuto, 10000);
+  setTimeout(NextSlideAuto, 15000);
 }
-setTimeout(NextSlideAuto, 10000);
+setTimeout(NextSlideAuto, 15000);
 
 function showSlides(n) {
   var i;
