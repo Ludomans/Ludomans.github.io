@@ -1,5 +1,5 @@
-Host: http://www.aaenchant.ru
+Host: 
 
 User-agent: *
 Disallow: /chatVk.html
-Sitemap: http://www.aaenchant.ru/sitemap.xml
+Sitemap:
