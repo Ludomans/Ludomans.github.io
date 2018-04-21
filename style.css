@@ -17,7 +17,7 @@ body {
 h1 {
   margin: 0;
   padding: 0;
-  font-family: 'Cantarell', sans-serif;
+  font-family: 'Aldrich', sans-serif;
 }
 h2 {
   margin: 3px;
@@ -32,6 +32,7 @@ h6 {
 }
 a {
   color: white;
+  text-decoration: none;
 }
 
 b {
@@ -56,9 +57,10 @@ header {
 .Logo {
   width: 280px;
   height: 50px;
-  padding: 0;
-  margin-left: 85px;
+  padding: 8px;
+  margin-left: 40px;
   float: left;
+  font-family: 'Pacifico', cursive;
 }
 
 #ToolBar {
@@ -293,6 +295,36 @@ iframe {
 
 #faq {
   text-align: center;
+}
+.stream {
+  text-align: center;
+}
+
+#StreamVideo {
+  margin-top: 30px;
+  width: 1170px;
+  height: 665px;
+}
+
+#Streamer {
+  width: 580px;
+  height: 130px;
+  padding: 30px;
+  margin: auto;
+}
+
+#StreamersLogo {
+  height: 120px;
+  width: 120px;
+  background: url(https://yt3.ggpht.com/-TkXFJHWLnqs/AAAAAAAAAAI/AAAAAAAAAAA/-TJ9TGs1BnI/s100-mo-c-c0xffffffff-rj-k-no/photo.jpg);
+  background-size: cover;
+  padding: 5px;
+  float: left;
+  border: 1px solid silver;
+  margin-right: 60px;
+}
+#StreamName {
+  padding: 45px;
 }
 
 
