@@ -4,6 +4,8 @@
 * {
   transition: all .1s;
   user-select: none;
+  -webkit-user-select: none;
+  -mozilla-user-select: none;
 }
 
 body {
@@ -314,8 +316,9 @@ iframe {
 }
 
 #Streamer {
-  width: 580px;
-  height: 130px;
+  width: auto;
+  background: ;
+  height: 190px;
   padding: 30px;
   margin: auto;
 }
@@ -325,13 +328,13 @@ iframe {
   width: 120px;
   background: url(https://yt3.ggpht.com/-TkXFJHWLnqs/AAAAAAAAAAI/AAAAAAAAAAA/-TJ9TGs1BnI/s100-mo-c-c0xffffffff-rj-k-no/photo.jpg);
   background-size: cover;
-  padding: 5px;
-  float: left;
+  padding: 10px;
   border: 1px solid silver;
-  margin-right: 60px;
+  margin: auto;
 }
 #StreamName {
-  padding: 45px;
+  text-align: center;
+  padding: 25px;
 }
 
 
@@ -376,8 +379,8 @@ iframe {
 }
 
 .fade {
-  -webkit-animation-name: fade;
-  -webkit-animation-duration: 1.5s;
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
   animation-name: fade;
   animation-duration: 1.5s;
 }
