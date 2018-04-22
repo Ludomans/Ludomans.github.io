@@ -135,11 +135,17 @@ iframe {
 }
 
 #i {
-  background: none;
   width: auto;
-  height: 190px;
-  padding: 15px;
+  min-height: 160px;
+  padding: 10px;
   text-align: center;
+}
+
+.mH2 {
+  font-size: 1.4em;
+}
+.mH3 {
+  font-size: 1em;
 }
 
 
