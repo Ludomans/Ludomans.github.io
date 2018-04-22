@@ -5,6 +5,7 @@
   transition: all .1s;
   user-select: none;
 }
+
 body {
   background: rgb(19, 18, 32);
   margin: 0;
@@ -33,12 +34,15 @@ a {
   color: white;
   text-decoration: none;
 }
+
 b {
   font-size: 0.5em;
 }
+
 Strong {
   color: silver;
 }
+
 header {
   background: rgb(40, 38, 73); /* rgb(255, 115, 0); */
   width: 100%;
@@ -49,19 +53,23 @@ header {
   margin-bottom: 15px;
   z-index: 999;
 }
+
 .Logo {
   width: 280px;
   height: 50px;
   padding: 8px;
   margin-left: 40px;
   float: left;
-  font-family: 'Pacifico', cursive;
+  font-size: 2em;
+  font-family: 'Aldrich', sans-serif;
 }
+
 #ToolBar {
   width: 1200px;
   height: 40px;
   margin: auto;
 }
+
 .navBar {
   background: none;
   height: 50px;
@@ -86,6 +94,7 @@ header {
 }
 .navBar > ul li a:hover{ color: rgb(225, 225, 225); }
 .navBar > ul li a:active{ color: silver; }
+
 footer {
   width: 1170px;
   min-height: 40px;
@@ -95,6 +104,7 @@ footer {
   text-align: center;
   border-bottom: 3px solid silver;
 }
+
 #wrapper {
   background: none;
   width: 1200px;
@@ -103,6 +113,7 @@ footer {
   margin-top: 80px;
   margin-bottom: 20px;
 }
+
 iframe {
   background: gray;
   width: 1200px;
@@ -112,6 +123,7 @@ iframe {
   margin-bottom: 15px;
   border-bottom: 3px solid silver;
 }
+
 #item {
   background: rgb(40, 38, 73);
   width: 1170px;
@@ -121,6 +133,7 @@ iframe {
   margin-bottom: 15px;
   padding: 15px;
 }
+
 #i {
   background: none;
   width: auto;
@@ -128,6 +141,8 @@ iframe {
   padding: 15px;
   text-align: center;
 }
+
+
 #itemIndex {
   border-top: 3px solid silver;
   width: auto;
@@ -135,6 +150,7 @@ iframe {
   margin-top: 25px;
   margin-bottom: 20px;
 }
+
 .mPlayBtn {
   background: none;
   width: 533px;
@@ -160,6 +176,7 @@ iframe {
 #mSpan:active {
   background: rgb(19, 18, 32);
 }
+
 .info {
   width: 525px;
   height: 60px;
@@ -168,6 +185,7 @@ iframe {
   text-align: center;
   font-size: 0.8em;
 }
+
 .refferal {
   background: none;
   width: auto;
@@ -175,12 +193,14 @@ iframe {
   padding: 15px;
   border-top: 3px solid silver;
 }
+
 .image {
   width: 260px;
   height: 140px;
   float: left;
   margin-right: 30px;
 }
+
 .Desc {
   background: none;
 
@@ -191,6 +211,7 @@ iframe {
   margin: 0;
   text-align: center;
 }
+
 .rPlayBtn {
   background: none;
   width: 245px;
@@ -199,6 +220,7 @@ iframe {
   margin-left: 30px;
   padding-top: 20px;
 }
+
 #rBtn {
   background: white;
   width: 269px;
@@ -218,6 +240,7 @@ iframe {
 #rBtn:active {
   background: rgb(19, 18, 32);
 }
+
 .slots {
   background: rgb(0, 0, 0);
   width: 272px;
@@ -226,6 +249,7 @@ iframe {
   margin: 10px;
   border-bottom: 3px solid silver;
 }
+
 .slots:hover .slot-bg {
   display: block;
   cursor: pointer;
@@ -233,9 +257,11 @@ iframe {
 .slots:hover .Play {
 
 }
+
 .slots:active .Play {
   background: rgb(29, 28, 55);
 }
+
 .slot-bg {
   display: none;
   background: rgb(0, 0, 0, .6);
@@ -245,6 +271,7 @@ iframe {
   float: left;
   top: -225px;
 }
+
 .Play {
   background: rgb(40, 38, 73);
   text-align: center;
@@ -258,29 +285,35 @@ iframe {
   left: 45px;
   border-bottom: 3px solid silver;
 }
+
+
 .lic {
   width: auto;
   height: 240px;
   margin: auto;
   text-align: center;
 }
+
 #faq {
   text-align: center;
 }
 .stream {
   text-align: center;
 }
+
 #StreamVideo {
   margin-top: 30px;
   width: 1170px;
   height: 665px;
 }
+
 #Streamer {
   width: 580px;
   height: 130px;
   padding: 30px;
   margin: auto;
 }
+
 #StreamersLogo {
   height: 120px;
   width: 120px;
@@ -294,7 +327,10 @@ iframe {
 #StreamName {
   padding: 45px;
 }
-.slideshow-containter {
+
+
+
+.slideshow-containter { /* Слайдер */
   max-width: 1200px;
   height: 284px;
   position: relative;
@@ -302,6 +338,7 @@ iframe {
   box-shadow: 0 0 5px rgba(0, 0, 0, .5);
   cursor: pointer;
 }
+
 .prev, .next {
   cursor: pointer;
   position: absolute;
@@ -315,6 +352,7 @@ iframe {
   transition: .3s ease;
   border-radius: 0 3px 3px 0;
 }
+
 .next {
   right: 0;
   border-radius: 3px 0 0 3px;
@@ -322,6 +360,7 @@ iframe {
 .prev:hover, .next:hover {
   background-color: rgb(40, 38, 73);
 }
+
 .text {
   color: #f2f2f2;
   font-size: 12px;
@@ -329,6 +368,7 @@ iframe {
   position: absolute;
   top: 0;
 }
+
 .fade {
   -webkit-animation-name: fade;
   -webkit-animation-duration: 1.5s;
