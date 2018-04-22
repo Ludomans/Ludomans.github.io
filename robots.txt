@@ -1,5 +1,5 @@
-Host: 
+Host: http://www.demoslot.pro/
 
 User-agent: *
-Disallow: /chatVk.html
-Sitemap:
+
+Sitemap: http://www.demoslot.pro/sitemap.xml
