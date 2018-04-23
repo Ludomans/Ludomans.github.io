@@ -1,1 +1,47 @@
-var slideIndex=1;function plusSlides(e){showSlides(slideIndex+=e),setTimeout(autoSlideDelay,8e3),autoSladeActive=!1}function currentSlide(e){showSlides(slideIndex=e)}function showSlides(e){var l,t=document.getElementsByClassName("mySlides");for(e>t.length&&(slideIndex=1),e<1&&(slideIndex=t.length),l=0;l<t.length;l++)t[l].style.display="none";t[slideIndex-1].style.display="block"}showSlides(slideIndex);var autoSladeActive=!0;function plusAutoSlides(e){showSlides(slideIndex+=e)}function NextSlideAuto(){autoSladeActive&&plusAutoSlides(1),setTimeout(NextSlideAuto,15e3)}function autoSlideDelay(){autoSladeActive=!0}setTimeout(NextSlideAuto,15e3);
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides (n){
+  showSlides(slideIndex += n);
+  setTimeout(autoSlideDelay, 8000);
+  autoSladeActive = false;
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+
+  if (n > slides.length){
+    slideIndex = 1;
+  }
+  if (n < 1){
+    slideIndex = slides.length;
+  }
+  for (i=0; i < slides.length; i++){
+    slides[i].style.display = "none";
+  }
+  slides[slideIndex-1].style.display = "block";
+}
+
+var autoSladeActive = true;
+
+function plusAutoSlides (n){
+  showSlides(slideIndex += n);
+}
+
+function NextSlideAuto (){
+  if (autoSladeActive){
+    plusAutoSlides(1);
+  }
+
+  setTimeout(NextSlideAuto, 15000);
+}
+setTimeout(NextSlideAuto, 15000);
+
+function autoSlideDelay () {
+  autoSladeActive = true;
+}
