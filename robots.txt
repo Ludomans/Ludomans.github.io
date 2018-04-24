@@ -1,5 +1,4 @@
 Host: http://www.demoslot.pro/
 
 User-agent: *
-Disallow:
 Sitemap: http://www.demoslot.pro/sitemap.xml
