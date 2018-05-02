@@ -1,4 +1,4 @@
 Host: http://www.demoslot.pro/
-
+Disallow: vkChat.html
 User-agent: *
 Sitemap: http://www.demoslot.pro/sitemap.xml
